@@ -25,7 +25,7 @@ const dbConfig = {
   'BIJOU': {
     user: 'sa',
     password: 'P@ssw0rd',
-    server: 'SAGE100CV4\\SAGE100CV4_2016',
+    server: process.env.DB_SERVER2,
     database: 'BIJOU',
     options: {
       encrypt: false,
